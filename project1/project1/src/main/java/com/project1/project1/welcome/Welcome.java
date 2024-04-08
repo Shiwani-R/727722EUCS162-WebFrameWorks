@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Welcome {
     @GetMapping("/welcome")
-    public String yaal()
+    public String shan()
     {
-        return "Hi...I am Yalini";
+        return "Hi...I am Shiwani";
     }
 }
